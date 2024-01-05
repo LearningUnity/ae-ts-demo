@@ -3,8 +3,10 @@
 
 
 ## Install:
-  > git clone 
-  > cd 
+  > git clone https://github.com/LearningUnity/ae-ts-demo.git
+
+  > cd ae-ts-demo
+  
   > npm install 
 
 ## tasks.json:
