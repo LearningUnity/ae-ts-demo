@@ -1,0 +1,21 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run in AfterEffects",
+        "type": "shell",
+        "command": "F:\\Softwares\\AE\\AE\\Adobe After Effects 2021\\Support Files\\AfterFX.exe",
+        "args": [
+          "-r",
+          "\"${workspaceFolder}\\dist\\app.js\""
+        ],
+        "problemMatcher": [],
+        "group": {
+          "kind": "test",
+          "isDefault": true
+        }
+      }
+    ]
+}
